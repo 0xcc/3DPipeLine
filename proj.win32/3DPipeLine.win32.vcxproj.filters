@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{751accef-f3aa-4481-9aee-d556dd4aa37e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{33ce4192-de75-4853-acab-cc4c4593e73e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{c222cf36-9c5d-4557-a67e-39c86b4825d8}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{e7777425-c3d5-404f-a3e7-002f020944c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\headers">
+      <UniqueIdentifier>{88522e43-6f71-4998-a759-9eb92fdd3c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cpps">
+      <UniqueIdentifier>{39a85d84-9e4e-45f6-8248-9202850fa586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\engine">
+      <UniqueIdentifier>{5591c4e2-6c2b-402c-93c6-5e878fe8650a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\engine\headers">
+      <UniqueIdentifier>{b379b4c3-f17e-40a4-b6f0-878901de5e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\engine\cpp">
+      <UniqueIdentifier>{b50ca31d-ecff-482e-9ac0-3fca376f6768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\testcase">
+      <UniqueIdentifier>{da57726b-3b65-43ae-b831-505dde5c7978}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\3DPipeLine.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3DPipeLine.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\fileutil.h">
+      <Filter>Classes\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\config.h">
+      <Filter>Classes\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\3dScene.h">
+      <Filter>Classes\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\3dmath.h">
+      <Filter>Classes\engine\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\caches.h">
+      <Filter>Classes\engine\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\testcase.h">
+      <Filter>Classes\testcase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\3dengine.h">
+      <Filter>Classes\engine\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\3dgeometry.h">
+      <Filter>Classes\engine\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\3dbitmap.h">
+      <Filter>Classes\engine\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\3dcamera.h">
+      <Filter>Classes\engine\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\3dmyplg.h">
+      <Filter>Classes\engine\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\3dparser.h">
+      <Filter>Classes\engine\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\fileutil.cpp">
+      <Filter>Classes\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\3dScene.cpp">
+      <Filter>Classes\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\3dmath.cpp">
+      <Filter>Classes\engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\testcase.cpp">
+      <Filter>Classes\testcase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\caches.cpp">
+      <Filter>Classes\engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\3dengine.cpp">
+      <Filter>Classes\engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\3dgeometry.cpp">
+      <Filter>Classes\engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\3dbitmap.cpp">
+      <Filter>Classes\engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\3dcamera.cpp">
+      <Filter>Classes\engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\3dparser.cpp">
+      <Filter>Classes\engine\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
